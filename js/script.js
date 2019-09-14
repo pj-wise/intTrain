@@ -1179,7 +1179,7 @@ ddMenuItems.map((i, item) => {
 		// console.log(countryStates)
 		$(".statesDisplay").empty(); // clearing on new country selection
 		$(".statesDisplay").append("<ul class=list-group></ul>")
-		 // changing "pick a country" text to be the name of country selected// changing "pick a country" text to be the name of country selected
+		 // changing "pick a country" // changing "pick a country" text to be "Pick Another Country"
 		$('#countryDropdown').text("Pick Another Country").append(" <span class=caret></span>")
 		$('.statesDisplay').prepend("<h4>The states in " + $(item).text() + " are: </h4>")// adding selected country name as text 
 		$.map(countryStates, ((state) => {
