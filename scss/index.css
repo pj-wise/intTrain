@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Exo&display=swap");
+html,
+body {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left bottom, left top, from(#020024), color-stop(0%, #5cb85c), to(#00d4ff));
+  background: linear-gradient(0deg, #020024 0%, #5cb85c 0%, #00d4ff 100%);
+  background-repeat: no-repeat;
+  font-family: 'Exo', sans-serif;
+}
+
+html .fullWrapper,
+body .fullWrapper {
+  margin: 0 auto;
+}
+
+html .fullWrapper header .headTitle,
+body .fullWrapper header .headTitle {
+  text-align: center;
+  font-weight: 900;
+  color: whitesmoke;
+}
+
+html .fullWrapper .topSection,
+body .fullWrapper .topSection {
+  padding: 0 20%;
+}
+
+html .fullWrapper .topSection .dropdown button,
+body .fullWrapper .topSection .dropdown button {
+  width: 100%;
+  font-size: 20px;
+  border: 2px solid #cbecdc;
+}
+
+html .fullWrapper .topSection .dropdown .dropdown-menu,
+body .fullWrapper .topSection .dropdown .dropdown-menu {
+  cursor: pointer;
+  width: 100%;
+}
+
+html .fullWrapper .bottomSection,
+body .fullWrapper .bottomSection {
+  padding: 2em 20%;
+}
+
+html .fullWrapper .bottomSection .statesDisplay ul,
+body .fullWrapper .bottomSection .statesDisplay ul {
+  border: none;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0);
+}
+
+html .fullWrapper .bottomSection .statesDisplay ul li,
+body .fullWrapper .bottomSection .statesDisplay ul li {
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid grey;
+  font-weight: 600;
+}
+
+html .fullWrapper .bottomSection .statesDisplay ul li:nth-child(odd),
+body .fullWrapper .bottomSection .statesDisplay ul li:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+html .fullWrapper .bottomSection .statesDisplay ul li:nth-child(even),
+body .fullWrapper .bottomSection .statesDisplay ul li:nth-child(even) {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+html .fullWrapper .bottomSection .statesDisplay ul li:last-child,
+body .fullWrapper .bottomSection .statesDisplay ul li:last-child {
+  border-bottom: none;
+}
+
+html .fullWrapper .bottomSection .statesDisplay h4,
+body .fullWrapper .bottomSection .statesDisplay h4 {
+  font-weight: 700;
+}
+
+html .fullWrapper .bottomSection .list-group,
+body .fullWrapper .bottomSection .list-group {
+  margin: 0 auto;
+  font-size: 20px;
+}
+/*# sourceMappingURL=index.css.map */

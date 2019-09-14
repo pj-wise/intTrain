@@ -1,0 +1,70 @@
+Congratulations and Welcome to the Technical 2nd Interview!
+
+    - The first portion is the completion of this coding project. Upon successful completion you will get emailed/called to come in for the second portion.
+    - The second portion will be in person where we will discuss the project and the web team will be present to ask some questions.
+
+This same project is being sent out to all applicants so we can get a look at the different coding styles used to build this Location System.
+
+
+==========
+
+
+
+* Requirements *
+    We would like you to build a simple Location System. We have provided you with two JSON strings of Countries data and States data.
+        - Your task is to use the data we have provided to load the Countries using the script.js file into a dropdown, table, or however you choose to display the data.
+        - On selection of Country, load the States from the data we provided that are associated with the selected Country into a second dropdown, table, or however you choose to display the data.
+        - Clicking a new Country, States must clear and reload the correct States that are associated with the new Country Selected.
+        - Please provide comments
+
+    We use Bootstrap 3.3.7 so we would like to see the HTML framework built in this version. You have creative freedom on how you design/layout the front end however you feel it works best.
+
+* Optional *
+    We understand that people may or may not have much time to dedicate to this project but if you are having fun building this and would like to keep going, try some of these.
+
+        - The JSON lists are out of order, Alphabetize the results before display
+        - Build an edit form. Edit the selected country name, edit the selected state name. Does not need to submit or function but just a front end layout front-end design/layout.
+
+
+
+==========
+
+
+*** File System ***
+    We chose to run this as basic as possible so that we don't need to load through localhost.
+
+    - firstname_lastname.html
+        - *Please rename to your name seperated by underscore*
+        - This HTML File is a ready to go template with everything included in order to accomplish this project.
+        - Feel free to add whatever 3rd party libraries if you would like
+
+    - js Folder
+        - script.js
+            - We code our js using jQuery, so we would like to see you use jQuery.
+            - We included the Countries JSON & the States JSON for you to use.
+        - Location_Country.json
+        - Location_State.json
+            - These 2 Files are backups of the Countries and States JSON we included in the .js in case they get deleted.
+
+    - css Folder
+        - style.css
+            - Blank CSS file for you to use if you would like.
+
+
+
+===========
+
+
+
+*** Project Submission ***
+Please send us a zip file of these files with the zip file name being your firstname_lastname.zip
+
+
+
+============
+
+
+
+Do not hesitiate to email us if you do not understand the requirements of this project or cannot make the deadline work.
+
+We are excited to see your code. Good Luck!
