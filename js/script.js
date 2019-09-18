@@ -1182,9 +1182,10 @@ ddMenuItems.map((i, item) => {
 		 // changing "pick a country" text to be the name of country selected// changing "pick a country" text to be the name of country selected
 		$('#countryDropdown').text("Pick Another Country").append(" <span class=caret></span>")
 		$('.statesDisplay').prepend("<h4>The states in " + $(item).text() + " are: </h4>")// adding selected country name as text 
+		$('.editModal').css('display', 'block')
 		$.map(countryStates, ((state) => {
 			// console.log(state)
-			$('.statesDisplay .list-group').append("<li class=list-group-item>"+ state.State +"</li>")
+			$('.statesDisplay .list-group').append("<li class=list-group-item>"+ state.State +"</li>").addClass("animated fadeInUp")
 		})
 		)
 	})

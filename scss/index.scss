@@ -1,81 +1,93 @@
-@import url('https://fonts.googleapis.com/css?family=Exo&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Exo&display=swap");
 
 html,
 body {
-    align-content    : center;
-    text-align       : center;
-    min-height       : 100vh;
-    background       : linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(92, 184, 92, 1) 0%, rgba(0, 212, 255, 1) 100%);
-    background-repeat: no-repeat;
-    font-family      : 'Exo', sans-serif;
+  align-content: center;
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(92, 184, 92, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-repeat: no-repeat;
+  font-family: "Exo", sans-serif;
 
-    .fullWrapper {
-        margin: 0 auto;
+  .fullWrapper {
+    margin: 0 auto;
 
-        header {
-            .headTitle {
-                text-align : center;
-                font-weight: 900;
-                color      : rgb(245, 245, 245);
-            }
-        }
-
-        .topSection {
-            padding: 0 20%;
-
-            .dropdown {
-
-                button {
-                    width    : 100%;
-                    font-size: 20px;
-                    border   : 2px solid rgb(203, 236, 220);
-                }
-
-                .dropdown-menu {
-                    cursor: pointer;
-                    width : 100%;
-                }
-            }
-        }
-
-        .bottomSection {
-            padding: 2em 20%;
-
-            .statesDisplay {
-                ul {
-                    border       : none;
-                    border-radius: 5px;
-                    background   : rgba(0, 0, 0, 0);
-
-                    li {
-                        &:nth-child(odd) {
-                            background: rgba(255, 255, 255, 0.7);
-                        }
-
-                        &:nth-child(even) {
-                            background: rgba(255, 255, 255, 0.8);
-                        }
-
-                        border-left  : none;
-                        border-right : none;
-                        border-bottom: 2px solid grey;
-                        font-weight  : 600;
-
-                        &:last-child {
-                            border-bottom: none;
-                        }
-                    }
-                }
-
-                h4 {
-                    font-weight: 700;
-                }
-            }
-
-            .list-group {
-                margin   : 0 auto;
-                font-size: 20px;
-            }
-        }
+    header {
+      .headTitle {
+        text-align: center;
+        font-weight: 900;
+        color: rgb(245, 245, 245);
+      }
     }
+
+    .topSection {
+      padding: 0 20%;
+
+      .dropdown {
+        button {
+          width: 100%;
+          font-size: 20px;
+          border: 2px solid rgb(203, 236, 220);
+        }
+
+        .dropdown-menu {
+          cursor: pointer;
+          width: 100%;
+        }
+      }
+    }
+
+    .bottomSection {
+      padding: 2em 20%;
+
+      .statesDisplay {
+        ul {
+          border: none;
+          border-radius: 5px;
+          background: rgba(0, 0, 0, 0);
+
+          li {
+            &:nth-child(odd) {
+              background: rgba(255, 255, 255, 0.7);
+            }
+
+            &:nth-child(even) {
+              background: rgba(255, 255, 255, 0.8);
+            }
+
+            border-left: none;
+            border-right: none;
+            border-bottom: 2px solid grey;
+            font-weight: 600;
+
+            &:last-child {
+              border-bottom: none;
+            }
+          }
+        }
+
+        h4 {
+          font-weight: 700;
+        }
+      }
+
+      .list-group {
+        margin: 0 auto;
+        font-size: 20px;
+      }
+
+      .editModal {
+        display: none;
+        margin: 1em auto;
+
+        .modal-content {
+        }
+      }
+    }
+  }
 }

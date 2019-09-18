@@ -8,7 +8,7 @@ body {
   background: -webkit-gradient(linear, left bottom, left top, from(#020024), color-stop(0%, #5cb85c), to(#00d4ff));
   background: linear-gradient(0deg, #020024 0%, #5cb85c 0%, #00d4ff 100%);
   background-repeat: no-repeat;
-  font-family: 'Exo', sans-serif;
+  font-family: "Exo", sans-serif;
 }
 
 html .fullWrapper,
@@ -85,5 +85,16 @@ html .fullWrapper .bottomSection .list-group,
 body .fullWrapper .bottomSection .list-group {
   margin: 0 auto;
   font-size: 20px;
+}
+
+html .fullWrapper .bottomSection .editModal,
+body .fullWrapper .bottomSection .editModal {
+  display: none;
+  margin: 1em auto;
+}
+
+html .fullWrapper .bottomSection .editModal .modal-content,
+body .fullWrapper .bottomSection .editModal .modal-content {
+  margin: 2em auto;
 }
 /*# sourceMappingURL=index.css.map */
